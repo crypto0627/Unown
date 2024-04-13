@@ -13,6 +13,7 @@
     "dotenv": "16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
     "react-query": "^3.39.3",
     "react-router-dom": "^6.22.0",
     "react-scripts": "^5.0.1"
@@ -20,7 +21,7 @@
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/dotenv": "^8.2.0",
-    "@types/node": "^16.18.80",
+    "@types/node": "^16.18.96",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@types/react-router-dom": "^5.3.3",

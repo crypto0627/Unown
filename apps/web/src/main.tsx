@@ -7,7 +7,9 @@ import {
 } from 'react-router-dom'
 import App from './App'
 import Launch from './routes/launch'
+import Signup from './routes/signup'
 import ErrorPage from './routes/error'
+import Forgot from './routes/forgotpassword'
 
 const rootElement = document.getElementById('root')
 
@@ -21,6 +23,16 @@ const router = createBrowserRouter([
     path: 'launch',
     element: <Launch />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: 'signup',
+    element: <Signup />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: 'forgot-password',
+    element: <Forgot />,
+    errorElement: <ErrorPage />
   }
 ])
 

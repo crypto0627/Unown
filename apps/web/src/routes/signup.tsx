@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 
-export default function Launch() {
+export default function Signup() {
 
   return (
     <div className='md:max-w-[5120px] w-full bg-cover bg-no-repeat bg-fixed bg-launch min-h-screen grid place-items-start relative'>
@@ -28,10 +28,8 @@ export default function Launch() {
               <input type="checkbox" defaultChecked className="checkbox checkbox-info" />
             </label>
           </div>
-          <a className='text-white' href='/forgot-password'>forgot password?</a>
-          <button className="btn">Sign in</button>
+          <button className="btn">Sign up</button>
         </div>
-        <a className='text-white' href='/signup'>Don't sign up? Register here!</a>
       </div>
     </div>
   )
